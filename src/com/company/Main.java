@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 public class Main {
 
     public static void main(String[] args)  throws FileNotFoundException {
-        getWordCount ("C:\\Users\\Артём\\IdeaProjects\\statistika\\src\\com\\company\\vvedite_text.txt");
+        getWordCount ("C:\\Users\\Артём\\IdeaProjects\\statistika\\src\\com\\company\\sever_star.txt");
     }
     public static void getWordCount(String filename) throws FileNotFoundException {
         File file = new File(filename);
